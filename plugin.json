@@ -3,6 +3,8 @@
     "componenttitle": "Decision",
     "componentcategoryid": 5,
     "componentclass": "decision",
+    "version": "0.0.1",
+    "createdby": "Prisma Data Abadi",
     "input": 1,
     "output": 2,
     "details": [
