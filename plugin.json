@@ -1,0 +1,44 @@
+{
+    "componentname": "Decision",
+    "componenttitle": "Decision",
+    "componentcategoryid": 5,
+    "componentclass": "decision",
+    "input": 1,
+    "output": 2,
+    "details": [
+        {
+            "detailtype": "select",
+            "lable": "Decision Type",
+            "inputtype": "select",
+            "inputname": "decisiontype",
+            "inputdesc": "Type of comparison",
+            "datasource": "numeric,string,boolean",
+            "order": 1
+        },
+        {
+            "detailtype": "text",
+            "lable": "Left Value",
+            "inputtype": "text",
+            "inputname": "leftvalue",
+            "inputdesc": "Left side of comparison",
+            "order": 2
+        },
+        {
+            "detailtype": "select",
+            "lable": "Operator",
+            "inputtype": "select",
+            "inputname": "operator",
+            "inputdesc": "Comparison operator",
+            "datasource": "==,!=,>,>=,<,<=,contains,startswith,endswith",
+            "order": 3
+        },
+        {
+            "detailtype": "text",
+            "lable": "Right Value",
+            "inputtype": "text",
+            "inputname": "rightvalue",
+            "inputdesc": "Right side of comparison",
+            "order": 4
+        }
+    ]
+}
